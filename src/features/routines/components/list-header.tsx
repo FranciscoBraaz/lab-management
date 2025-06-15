@@ -1,8 +1,7 @@
 "use client";
 
-import { Button } from "@/shared/components/ui/button";
-import { Plus } from "lucide-react";
 import React from "react";
+import RoutineModal from "./routine-modal";
 
 function ListHeader() {
   return (
@@ -10,10 +9,7 @@ function ListHeader() {
       <h1 className="text-[28px] font-semibold text-text-primary text-center line-heading-[32px]">
         Gestão de rotinas de laboratório
       </h1>
-      <Button className="bg-btn-primary cursor-pointer">
-        <Plus className="w-[20px] h-[20px]" color="#fff" />
-        <span>Adicionar rotina</span>
-      </Button>
+      <RoutineModal />
     </section>
   );
 }

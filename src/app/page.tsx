@@ -26,7 +26,7 @@ export default function Home() {
           </div>
         </section>
         <div className=" w-full h-[1px] bg-[#E4E4E4] mt-[8px]" />
-        <section>
+        <section className="mb-[16px]">
           <RoutineList debouncedKeyword={debouncedKeyword} />
         </section>
       </QueryClientProvider>
