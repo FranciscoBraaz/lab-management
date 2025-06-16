@@ -37,6 +37,11 @@ Outros arquivos:
 - React-Query
 - React hook form
 
+### Checklist extra
+- [x] Busca de itens
+- [x] Modal para criar novo item
+- [x] Requisições com React Query
+
 ## 👷  Executando o projeto
  #### Clone o repositório:
   ```
