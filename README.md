@@ -1,4 +1,4 @@
-# ListProducts
+# LabManagement
 
 ## Sobre o projeto
 Aplicação desenvolvida com o objetivo de praticar os conhecimentos em NextJs e Tailwind CSS.
