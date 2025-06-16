@@ -36,9 +36,9 @@ function useCreateRoutine({
     },
     onSuccess: async () => {
       queryClient.invalidateQueries({ queryKey: ["routines"] });
+      toast.success("Rotina criada com sucesso!");
       reset({});
       closeModal();
-      toast.success("Rotina criada com sucesso!");
     },
     onError: (error) => {
       console.error("Error creating routine:", error);

@@ -16,7 +16,7 @@ function Header() {
     <header className="w-full pt-[28px] pb-[28px]">
       <div className="flex items-center justify-between m-auto max-w-[864px] flex-col xs:flex-row">
         <div className="flex items-center gap-[8px]">
-          {isMobile && <SidebarTrigger className="absolute left-0" />}
+          {isMobile && <SidebarTrigger className="absolute left-[4px]" />}
           <p className="text-[14px] font-semibold text-text-primary ml-[16px] lg:ml-0">
             Cadastros
           </p>
