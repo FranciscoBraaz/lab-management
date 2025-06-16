@@ -19,8 +19,8 @@ Aplicação desenvolvida com o objetivo de praticar os conhecimentos em NextJs e
   │
   ├── /shared/
   │    └── components/
-  │         ├── ui/                     # Componentes de UI do shadcn-ui reutilizáveis (ex: botão, modal, scroll-area)
-  │         └── Header/                 # Componente global como Header, Sidebar etc.
+  │         ├── ui/                      # Componentes de UI do shadcn-ui reutilizáveis (ex: botão, modal, scroll-area)
+  │         └── ComponentSample/         # Componente global como Header, Sidebar etc.
 
 Outros arquivos:
   ├── layout.tsx                         # Layout principal da aplicação (Next.js App Router)
